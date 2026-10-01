@@ -23,4 +23,4 @@ git commit -s
 
 An SDK release PR is complete only after its required hub docs PR has merged.
 
-The docs live in the [Tesseron hub](https://github.com/Eigenwise/tesseron) under `docs/src/content/docs/sdk/python`.
+The docs live in the [Tesseron hub](https://github.com/tesseron-dev/tesseron) under `docs/src/content/docs/sdk/python`.

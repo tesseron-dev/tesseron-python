@@ -1,15 +1,17 @@
 # tesseron (Python)
 
-The Python SDK lives at [Eigenwise/tesseron-python](https://github.com/Eigenwise/tesseron-python).
-The [Tesseron hub](https://github.com/Eigenwise/tesseron) owns the protocol, docs, and issues.
+The Python SDK lives at [tesseron-dev/tesseron-python](https://github.com/tesseron-dev/tesseron-python).
+The [Tesseron hub](https://github.com/tesseron-dev/tesseron) owns the protocol, docs, and issues.
 
-The Python implementation of the [Tesseron](https://eigenwise.github.io/tesseron/) host
+Created and maintained by [Eigenwise](https://eigenwise.io).
+
+The Python implementation of the [Tesseron](https://tesseron-dev.github.io/tesseron/) host
 protocol. Your application listens on loopback, the MCP gateway dials in, and the agent
 gets typed actions and readable resources instead of a scraper.
 
 Speaks protocol **1.2.0**. Compatibility is decided by protocol version, never by matching
 package numbers: see the
-[compatibility contract](https://eigenwise.github.io/tesseron/protocol/compatibility/).
+[compatibility contract](https://tesseron-dev.github.io/tesseron/protocol/compatibility/).
 
 Not on PyPI yet.
 
@@ -100,13 +102,13 @@ uv build
 
 The conformance host lives in `conformance_host/`, beside the package rather than inside
 it, so the published wheel carries the SDK and nothing else. See
-[the conformance page](https://eigenwise.github.io/tesseron/sdk/python/conformance/) for how
+[the conformance page](https://tesseron-dev.github.io/tesseron/sdk/python/conformance/) for how
 the runner drives it.
 
 ## Documentation
 
-- [Python SDK](https://eigenwise.github.io/tesseron/sdk/python/)
-- [Protocol specification](https://eigenwise.github.io/tesseron/protocol/)
+- [Python SDK](https://tesseron-dev.github.io/tesseron/sdk/python/)
+- [Protocol specification](https://tesseron-dev.github.io/tesseron/protocol/)
 
 ## License
 
